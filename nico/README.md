@@ -12,9 +12,11 @@ The Key Input generation function is based on [BASNet](https://github.com/xuebin
 
 (2) Dataset: 
 
-- Please download the NICO dataset from the CAAM paper's link: https://drive.google.com/drive/folders/17-jl0fF9BxZupG75BtpOqJaB6dJ2Pv8O?usp=sharing.
+- Please download the NICO dataset from the CAAM paper's [link](https://drive.google.com/drive/folders/17-jl0fF9BxZupG75BtpOqJaB6dJ2Pv8O?usp=sharing).
 
 (3) Generate Key Inputs for NICO dataset:
+
+- Download the model weight of BASNet from this [link](https://drive.google.com/file/d/1O9A1RrncUcRTlGn_IL6TdcXf5I--bO_y/view?usp=sharing), and put it into `BASNet/saved_models/`.
 ```
 CUDA_VISIBLE_DEVICES=0 python generate_key_inputs.py --image-dir $path_of_NICO_images --output-folder $path_to_save_key_inputs
 ```
