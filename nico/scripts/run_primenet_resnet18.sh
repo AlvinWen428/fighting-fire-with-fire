@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py -cfg conf/primenet_resnet18_bf0.02.yaml -gpu -name primenet_resnet18

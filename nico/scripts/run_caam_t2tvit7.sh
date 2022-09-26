@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 python train.py -cfg conf/caam_t2tvit7_bf0.02_s4_noenv_pw5e4.yaml -gpu -name multi_caam_t2tvit7_stage4_noenv_pw5e4
